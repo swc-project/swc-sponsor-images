@@ -11,7 +11,6 @@ export default defineConfig({
     },
     {
       title: 'Backers',
-      monthlyDollars: 10,
       preset: presets.small,
     },
     {
