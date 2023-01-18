@@ -15,6 +15,20 @@ export default defineConfig({
       preset: presets.small,
     },
     {
+      title: 'Sponsors',
+      monthlyDollars: 100,
+      preset: {
+        avatar: {
+          size: 42,
+        },
+        boxWidth: 52,
+        boxHeight: 52,
+        container: {
+          sidePadding: 30,
+        },
+      }
+    },
+    {
       title: 'Bronze Sponsors',
       monthlyDollars: 100,
       preset: presets.medium,
