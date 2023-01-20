@@ -3,6 +3,7 @@ import { defineConfig, presets } from 'sponsorkit'
 
 
 export default defineConfig({
+  onSponsorsReady:(sponsors)=>sponsors.filter((s)=>!s.isOneTime),
   tiers: [
     {
       title: 'Past Sponsors',
