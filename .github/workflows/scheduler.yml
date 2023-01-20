@@ -24,9 +24,8 @@ jobs:
           SPONSORKIT_GITHUB_TOKEN: ${{ secrets.SPONSORKIT_GITHUB_TOKEN }}
           SPONSORKIT_GITHUB_LOGIN: swc-project
           SPONSORKIT_GITHUB_TYPE: organization
-          # Disabled due to a bug
-          # SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
-          # SPONSORKIT_OPENCOLLECTIVE_SLUG: swc
+          SPONSORKIT_OPENCOLLECTIVE_KEY: ${{ secrets.SPONSORKIT_OPENCOLLECTIVE_KEY }}
+          SPONSORKIT_OPENCOLLECTIVE_SLUG: swc
 
       - name: Commit
         uses: EndBug/add-and-commit@v4
