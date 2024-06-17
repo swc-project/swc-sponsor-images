@@ -14,9 +14,10 @@ jobs:
       - name: Set node
         uses: actions/setup-node@v2
         with:
-          node-version: 16.x
+          node-version: 20.x
 
-      - run: npx pnpm i
+      - run: corepack enable
+      - run: pnpm i
 
       - name: Update sponsors
         run: npm run build
