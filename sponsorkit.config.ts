@@ -4,7 +4,7 @@ export default defineConfig({
 	// Providers configs
 	github: {
 		type: 'user',
-		login: 'privatenumber',
+		login: 'swc-project',
 	},
 
 	renders: [
