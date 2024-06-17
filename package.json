@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "packageManager": "pnpm@8.15.7",
   "scripts": {
     "build": "sh build.sh"
