@@ -3,8 +3,11 @@ import { defineConfig, tierPresets } from 'sponsorkit';
 export default defineConfig({
 	// Providers configs
 	github: {
-		type: 'user',
+		type: 'organization',
 		login: 'swc-project',
+	},
+	opencollective: {
+		slug: 'swc'
 	},
 
 	renders: [
